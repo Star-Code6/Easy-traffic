@@ -1,3 +1,7 @@
+#@mathew4STAR
+#25-09-2021
+#READ README.md for details
+
 from selenium import webdriver as wd
 import time
 from selenium.webdriver.chrome.options import Options
