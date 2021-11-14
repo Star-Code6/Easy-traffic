@@ -51,3 +51,7 @@ def data(d, stime, etime, inter):
     data = driver.find_element_by_xpath(data_path)
     final_data = data.text
     return final_data
+if __name__ == "__main__":
+    print("Running program with sample data")
+    samp_data = ["1/1/2021", "13:00", "14:00", 1]
+    data(samp_data[0], samp_data[1], samp_data[2], samp_data[3])
