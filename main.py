@@ -106,15 +106,14 @@ data1 = data1.split()
 data2 = data2.split()
 data3 = data3.split()
 
-#print(date1)
-#print(finalstarttime)
-#print(finalendtime)
+ts = '"timeStamp":'
+qty = '"qty":'
 for i in data1:
     runner1 += 1
-    if i == '"timeStamp":':
+    if i == ts:
         timestamps.append(data1[runner1])
 
-    if i == '"qty":':
+    if i == qty:
         qty = data1[runner1]
         qty = qty.strip(",")
         #print(qty)
@@ -122,10 +121,10 @@ for i in data1:
 
 for i in data2:
     runner2 += 1
-    if i == '"timeStamp":':
+    if i == ts:
         timestampss.append(data2[runner2])
 
-    if i == '"qty":':
+    if i == qty:
         qty = data2[runner2]
         qty = qty.strip(",")
         #print(qty)
@@ -133,10 +132,10 @@ for i in data2:
 
 for i in data3:
     runner3 += 1
-    if i == '"timeStamp":':
+    if i == ts:
         timestampsss.append(data3[runner3])
 
-    if i == '"qty":':
+    if i == qty:
         qty = data3[runner3]
         qty = qty.strip(",")
         #print(qty)
