@@ -7,7 +7,7 @@ It calculates the best time to travel with your current location, where you need
 # Installation 
 
 1.to clone the repo type:
-`git clone https://github.com/Star-Code6/Easy-traffic`
+`git clone https://github.com/mathew4STAR/Easy-traffic`
 in cmd
 
 2.change the directory
